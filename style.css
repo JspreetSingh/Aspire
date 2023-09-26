@@ -1,0 +1,122 @@
+/* @font-face {
+    font-family: myfont;
+    src: url(../website/fonts/futura/futu.ttf);
+} */
+
+
+    @font-face {
+        font-family: 'Futura';
+        src: url('futura\FuturaLightfont.ttf');
+    }
+#render{
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+* {
+    font-family: 'Futura';
+    font-weight: 100px;
+}
+#txt{
+    color: white;
+}
+#txt1{
+    color: crimson;
+}
+#para{
+    position: absolute;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.621);
+    top: 53%;
+    right: -100%;
+    left: -6%
+    
+    /* text-align: center; */
+    
+}
+#container2{
+    background-color: white;
+    padding-bottom: 25px;
+}
+#container2 h5{
+    color: red;
+    padding-left: 40px;
+    padding-top: 30px;  
+}
+#container2 p{
+    padding-left: 40px;
+    padding-top: 5px;
+    font-size: 11px;
+    padding-right: 40px;
+}
+#container3{
+    background-color:rgb(238, 238, 238);
+    padding-bottom: 40px;
+}
+#container3 h5{
+    color: red;
+    padding-left: 40px;
+    padding-top: 50px;
+    
+}
+#container3 p{
+    padding-left: 40px;
+    padding-top: 5px;
+    font-size: 11px;
+    padding-right: 40px;
+}
+#container4{
+    background-color: white;
+    padding-bottom: 85px;
+}
+#container4 h5{
+    color: red;
+    padding-left: 40px;
+    padding-top: 30px;    
+}
+#container4 p{
+    padding-left: 40px;
+    padding-top: 5px;
+    font-size: 11px;
+    padding-right: 40px;
+}
+#bttn{
+    background-color:crimson;
+    color: aliceblue;
+    margin-left: 550px;
+    border-radius: 2px;
+    border: 0px;
+    font-size: x-small;
+    block-size: 20px;
+}
+#img1 {
+    height: 50%;
+    width: 100%;
+    position: relative;
+    top :0px;
+    left: 0px;
+
+}
+#img2{
+    height: 25%;
+    width: 11%;
+    position: absolute;
+    top: 18%;
+    left: 45%;
+}
+
+.h5{
+    color: brown;
+    font-family: myfont;
+}
+.p{
+    background-color: aquamarine;
+    position: absolute;
+    font-family: myfont;
+}
+
+
+

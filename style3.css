@@ -1,0 +1,161 @@
+/* Reset some default styles */
+@font-face {
+    font-family: 'Futura';
+    src: url('futura\FuturaLightfont.ttf');
+}
+
+html, body, div, h2, p, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Futura';
+    font-weight: 100px;
+}
+
+/* Define a base font size and set a max-width for the content */
+body {
+    font-family: 'Futura', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+    background-color: #f0f0f0;
+}
+
+/* Style the container to position the background image */
+#container {
+    position: relative;
+}
+
+/* Style the image container to position the logo and text on top of the background image */
+#img-container {
+    position: relative;
+}
+
+/* Style the background image */
+#img1 {
+    width: 100%;
+    height: auto;
+    z-index: -1; /* Place the background image behind other content */
+}
+
+/* Style the overlay content (logo and text) */
+#overlay-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the logo */
+/* Style the logo */
+/* Style the logo */
+/* Style the logo */
+#img2 {
+    position: absolute;
+    top: 23%; /* Adjust the top position for the logo */
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 10%; /* Adjust this percentage to make the logo even smaller */
+    height: auto;
+}
+
+/* Style the text "Welcome to Aspire Awards" */
+h2 {
+    font-size: 3vw; /* Adjust the font size relative to viewport width */
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 70%; /* Adjust the top position for the text */
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a shadow for better visibility */
+}
+
+/* Style the text "Elevating" */
+#para {
+    font-size: 2vw; /* Adjust the font size relative to viewport width */
+    color: rgba(255, 255, 255, 0.61);
+    text-align: center;
+    position: absolute;
+    top: 73%; /* Adjust the top position for the "Elevating" text */
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a shadow for better visibility */
+}
+
+
+
+/* Style the content container */
+#render {
+    text-align: center;
+    padding: 20px;
+}
+
+#para {
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* Responsive button */
+#bttn {
+    background-color: crimson;
+    color: aliceblue;
+    margin: 20px auto;
+    border: 0;
+    font-size: 1rem;
+    padding: 10px 20px;
+    display: block;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+/* Make content containers responsive */
+#container2, #container3, #container4 {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+h5 {
+    color: red;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Mobile-first approach: Adjust styles for smaller screens */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    #para {
+        font-size: 0.9rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    /* Adjust button size */
+    #bttn {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}

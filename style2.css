@@ -1,0 +1,117 @@
+/* Reset some default styles */
+html, body, div, h2, p, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define a base font size and set a max-width for the content */
+body {
+    font-family: 'Futura', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+    background-color: #f0f0f0;
+}
+
+/* Style the container to position the background image */
+#container {
+    position: relative;
+}
+
+/* Style the background image */
+#img1 {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Place the background image behind other content */
+}
+
+/* Style the content container */
+#content {
+    text-align: center;
+    position: relative;
+    padding-top: 20%; /* Adjust to center the content vertically */
+}
+
+#img2 {
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#render {
+    padding: 20px;
+}
+
+/* Adjust text size and alignment for smaller screens */
+h2 {
+    font-size: 1.5rem;
+}
+
+#para {
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* Responsive button */
+#bttn {
+    background-color: crimson;
+    color: aliceblue;
+    margin: 20px auto;
+    border: 0;
+    font-size: 1rem;
+    padding: 10px 20px;
+    display: block;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+/* Make content containers responsive */
+#container2, #container3, #container4 {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+h5 {
+    color: red;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Mobile-first approach: Adjust styles for smaller screens */
+@media (max-width: 768px) {
+    #img2 {
+        max-width: 100%;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    #para {
+        font-size: 0.9rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    /* Adjust button size */
+    #bttn {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
